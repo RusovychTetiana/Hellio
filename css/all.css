@@ -1,0 +1,84 @@
+body{
+    font: 14px/18px Arial, sans-serif;
+}
+
+h1{
+    color: purple;
+    text-align: center;
+}
+
+.form{
+    border: purple 2px solid;
+    border-radius: 5px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: pink;
+    padding: 40px;
+}
+
+.form-box {
+    margin: 0 0 10px;
+}
+
+.label{
+    margin: 0 0 10px;
+    color: purple;
+    display: inline-block;
+    width: 700px;
+}
+
+.input{
+    border: purple 2px solid;
+    display: block;
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+}
+.select{
+    width: 700px;
+    border-radius: 10px;
+}
+.input-massage{
+    border: purple 2px solid;
+    display: block;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.choose{
+    border: none;
+    padding: 0;
+}
+
+.submit{
+    text-align: right;
+}
+
+.reset{
+  color: rgb(135, 6, 74);
+    background: rgb(226, 63, 150);
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    border: purple 2px solid;
+   margin: 10px;
+}
+
+.input_submit{
+    color: rgb(226, 63, 150);
+    background: rgb(135, 6, 74);
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    border: purple 2px solid;
+    margin: 10px;
+}
+
+
+::placeholder{
+    color: black;
+}

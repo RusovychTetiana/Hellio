@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div>
+       
+        <form class="form" action="#">
+            <h1>Contact form</h1>
+            <div class="form-box">
+                <label class="label" for="name">Your name</label>
+                <input class="input" placeholder="Your name" type="text" name="" id="name">
+            </div>
+            <div class="form-box">
+                <label class="label" for="email">Your email</label>
+                <input class="input" type="email" name="" id="email">
+            </div>
+            <div class="form-box">
+                <label class="label" for="select">Choose your age</label>
+                <select class="select" name="" id="select">
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                </select>
+            </div>
+            <div class="form-box">
+                <fieldset class="choose">
+                    <legend class="label">Choose your gender</legend>
+                    <input type="radio" name="gender" id="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" name="gender" id="Female">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="gender" id="Another">
+                    <label for="Another">Another</label>
+                </fieldset>
+            </div>  
+            <div class="form-box">     
+                <fieldset class="choose">
+                    <legend class="label">Choose your option</legend>
+                    <input type="checkbox" name="option" id="Option1">
+                    <label for="Option1">Option 1</label>
+                    <input type="checkbox" name="option" id="Option2">
+                    <label for="Option2">Option 2</label>
+                    <input type="checkbox" name="option" id="Option3">
+                    <label for="Option3">Option 3</label>
+                    <input type="checkbox" name="option" id="Option4">
+                    <label for="Option4">Option 4</label> 
+                </fieldset>
+            </div> 
+            <div class="form-box">
+                <label class="label" for="phone">Your phone</label>
+                <input class="input" type="tel" name="" id="phone">
+            </div>
+            <div class="form-box">
+                <label class="label" for="pass">Your password</label>
+                <input class="input" type="password" name="" id="pass">
+            </div>
+            <div class="form-box">
+                <label class="label" for="massage">Your massage</label>
+                <textarea class="input-massage" name="" id="massage" cols="30" rows="10"></textarea>
+            </div>
+            <div class="submit">
+                <input class="reset" type="submit" value="Reset">
+                <input class="input_submit" type="submit" value="Submit">
+            </div>
+        
+        </form>
+    </div>
+</body>
+</html>
